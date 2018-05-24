@@ -1,6 +1,8 @@
 @import "normalize.css";
 /** global styles **/
 @import "base/_global";
+/** mixins **/
+@import "base/_mixins";
 /** variables **/
 @import "base/_variables";
 /** hero styles **/
