@@ -9,6 +9,8 @@
 @import "modules/_large-hero";
 /** button styles **/
 @import "modules/_btn";
+/** headline styles **/
+@import "modules/_headline";
 /** wrapper styles **/
 @import "modules/_wrapper";
 /** page-section styles **/
