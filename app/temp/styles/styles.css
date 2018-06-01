@@ -343,6 +343,12 @@ template {
 
 /** global styles **/
 
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #333;
@@ -540,6 +546,35 @@ img {
     	background-color: #2f5572;
     	color: #fff;
     }
+
+/** row styles **/
+
+.row::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+.row--gutters > div:not(:last-child) {
+		padding-right: 0;
+	}
+
+@media (min-width: 800px) {
+
+		.row--gutters > div:not(:last-child) {
+			padding-right: 65px;
+		}
+
+		.row__col-medium-4 {
+			float: left;
+			width: 33.33%;
+		}
+
+		.row__col-medium-8 {
+			float: left;
+			width: 66.66%;
+		}
+	}
 
 
 
