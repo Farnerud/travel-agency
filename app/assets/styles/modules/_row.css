@@ -23,4 +23,12 @@
 			width: 66.66%;
 		}
 	}
+
+	&__col-medium-4-larger {
+		width: 37%;
+	}
+
+	&__col-medium-8-smaller {
+		width: 63%;
+	}
 }
